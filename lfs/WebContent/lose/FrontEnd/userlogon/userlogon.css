@@ -1,0 +1,66 @@
+.user_logon{
+    width: 67.5vw;
+    float: right;
+    height: 55rem;
+    padding: 1rem;
+    background-color: #EDD2C6;
+    margin-top: 1rem;
+}
+
+.user_logon .row{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.user_logon table{
+    width: 100%;
+}
+
+.user_logon .user_logon_title{
+    font-size: 1.5rem;
+    font-family: "楷体";
+    font-weight: bold;
+    font-style: normal;
+    color: #1c1c1c;
+}
+
+.user_logon .userlogon_content table{
+    width: 100%;
+}
+
+.user_logon .userlogon_content table tr{
+    display: block;
+    margin-top: 1rem;
+    font-weight: normal;
+    font-size: 2rem;
+    font-family: 楷体;
+    color: black;
+}
+
+.user_logon .userlogon_content table tr input{
+    color: black;
+    font-size: 1.5rem;
+    height: 4vh;
+    width: 15vw;
+}
+
+.user_logon .userlogon_button{
+    font-family: 幼圆;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.user_logon .userlogon_button input{
+    background: #27B3FE;
+    color: #FFFFFF;
+    height: 5vh;
+    width: 10vw;
+}
+
+.user_logon .userlogon_button input:hover{
+    background: #ff7e31;
+    color: #1c1c1c;
+}

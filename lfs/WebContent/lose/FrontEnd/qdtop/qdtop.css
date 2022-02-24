@@ -1,0 +1,140 @@
+.qdtop .row{
+    padding: 0;
+}
+
+.qdtop .top_one{
+    padding-top: 10px;
+}
+
+.qdtop .top_title h1{
+    font-size: 300%;
+    font-weight: bold !important;
+    color: #FFFFFF;
+    line-height: normal;
+    font-family: "Adobe 黑体 Std R" !important;
+    letter-spacing: 10pt;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media all and (max-width: 320px){
+    .qdtop .top_logo img{
+        max-width: 100%;
+    }
+    .qdtop .top_title h1{
+        text-align: center;
+        font-size: 150%;
+    }
+}
+
+@media all and (min-width: 321px) and (max-width: 414px){
+    .qdtop .top_logo img{
+        max-width: 95%;
+    }
+    .qdtop .top_title h1{
+        text-align: center;
+        font-size: 170%;
+    }
+
+}
+
+@media all and (min-width:414px) and (max-width: 768px){
+    .qdtop .top_logo img{
+        max-width: 100%;
+    }
+    .qdtop .top_title h1{
+        font-size: 180%;
+        text-align: center;
+    }
+}
+
+@media all and (min-width:768px) and (max-width: 992px){
+    .qdtop .top_logo img{
+        max-width: 95%;
+    }
+    .qdtop .top_title h1{
+        font-size: 200%;
+    }
+}
+
+.clear{
+    clear: both;
+}
+
+.carousel-inner img{
+    margin: 0 auto;
+}
+
+@media all and (width: 320px){
+    .carousel{
+        width: 118%;
+        margin-left: -15px;
+    }
+    .carousel img{
+        width: 100%;
+    }
+}
+.carousel-control{
+    font-size: 100px;
+}
+
+.qdtop .row table{
+    margin: 0 auto;
+    width: 97.62%;
+}
+
+.qdtop .row table tr td {
+    height: 50px;
+    background-color: lightsalmon;
+    text-align: center;
+    border-right: #FFFFFF 1px solid;
+}
+
+.qdtop .row table tr td a{
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "楷体";
+}
+
+.qdtop .row table tr td a:hover{
+    color: #cc3300;
+}
+
+@media all and (min-width: 451px) and (max-width: 749px){
+    .qdtop .row table tr td a{
+        font-size: 2.0rem;
+    }
+}
+
+@media all and (min-width: 719px) and (max-width: 991px){
+    .qdtop .row table{
+        max-width: 96.2%;
+    }
+}
+
+@media all and (min-width: 657px) and (max-width: 718px){
+    .qdtop .row table{
+        max-width: 95.88%;
+    }
+}
+
+@media all and (min-width: 615px) and (max-width: 676px){
+    .qdtop.row table{
+        max-width: 95.44%;
+    }
+}
+
+@media all and (min-width: 415px) and (max-width: 614px){
+    .qdtop .row table{
+        max-width: 94%;
+    }
+}
+
+@media all and (max-width: 414px){
+    .qdtop .row table{
+        max-width: 93%;
+    }
+}
+

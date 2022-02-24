@@ -1,0 +1,46 @@
+.editproduct{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.editproduct .row{
+    margin: 0;
+    width: 100%;
+    height: 400px;
+    height: 612px;
+    padding-top:2rem;
+    padding-left:2rem;
+}
+
+.editproduct .row table{
+    width: 100%;
+}
+
+.editproduct .row table td{
+    display: inline-block;
+    float: left;
+    height: 10vh;
+    padding-top: 1rem;
+    border: 1px solid #CAF2FF;
+    font-family: 楷体;
+    font-size: 2rem;
+    width:40vw;
+}
+
+.editproduct .row table td input{
+    display: inline-block;
+    width: 20vw;
+    height:6vh;
+}
+
+.editproduct .editproduct_button td{
+    border: none!important;
+    padding-left: 3rem;
+}
+
+.editproduct .editproduct_button input{
+    display: inline-block;
+    width: 20vw!important;
+    border-radius: 19px;
+    
+}

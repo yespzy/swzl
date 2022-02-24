@@ -1,0 +1,56 @@
+.personal{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.personal .row{
+    margin: 0;
+    height: 612px;
+    width: 100%;
+    padding-top: 2rem;
+    padding-left:2rem;
+}
+
+.personal .row p{
+    font-size:2rem;
+    font-family:宋体;
+    font-weight: initial;
+}
+
+
+.personal .row table{
+    width: 100%;
+}
+
+.personal .row table tr td{
+    display: inline-block;
+    border: 1px solid #CAF2FF;
+    float: left;
+    font-size: 2rem;
+    font-weight: initial;
+    font-family: 楷体;
+    width:30vw;
+    height:7vh;
+    padding-top:0.5vh;
+}
+
+.personal .row table tr td input{
+    width: 25vw;
+    height: 5vh;
+    font-size: 16px;
+    font-family: 宋体;
+}
+
+.personal .personal_button td{
+    padding-left: 5rem;
+    padding-top: 3rem;
+    border: none!important;
+}
+
+.personal .personal_button input{
+    display: inline-block;
+    width: 20vw!important;
+    border-radius: 19px;
+    height:7vh!important;
+    margin-top:2rem;
+}

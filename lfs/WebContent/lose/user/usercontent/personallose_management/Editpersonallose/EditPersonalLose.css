@@ -1,0 +1,56 @@
+.editpersonallose{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.editpersonallose .row{
+    margin: 0;
+    height: 612px;
+    width: 100%;
+    padding-top: 2rem;
+    padding-left:2rem;
+}
+
+.editpersonallose .row p{
+    font-size:2rem;
+    font-family:宋体;
+    font-weight: initial;
+}
+
+
+.editpersonallose .row table{
+    width: 100%;
+}
+
+.editpersonallose .row table tr td{
+    display: inline-block;
+    border: 1px solid #CAF2FF;
+    float: left;
+   width:40vw;
+    height:7vh;
+    font-weight: initial;
+    font-family: 楷体;
+    font-size: 2rem;
+    padding-top:0.5vh;
+}
+
+.editpersonallose .row table tr td input{
+    width: 30vw;
+    height: 5vh;
+    font-size: 16px;
+    font-family: 宋体;
+}
+
+.editpersonallose .editpersonallose_button td{
+    padding-left: 5rem;
+    padding-top: 3rem;
+    border: none!important;
+}
+
+.editpersonallose .editpersonallose_button input{
+    display: inline-block;
+    width: 20vw!important;
+    border-radius: 19px;
+    height:7vh!important;
+    margin-top:2rem;
+}

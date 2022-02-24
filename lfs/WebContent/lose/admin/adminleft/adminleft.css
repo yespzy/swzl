@@ -1,0 +1,39 @@
+.adminleft{
+    width: 100%;
+    margin:0
+}
+
+.adminleft .row{
+    width: 100%;
+    border: #FFFFFF 1px solid;
+    margin: 0;
+    height: 610px;
+}
+
+.adminleft .row table{
+    width: 100%;
+}
+
+.adminleft .row table table td{
+    display: inline-block;
+    width: 100%;
+    color: #1E5494;
+}
+
+.adminleft .admin_left_title{
+    font-style: normal;
+    font-family: 楷体;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: rgba(102,255,232,0.76);
+}
+
+.adminleft .admin_left_content{
+    width: 100%;
+    display: inline-block;
+    margin-top: 1vh;
+    font-size: 1.5rem;
+    font-family: 楷体;
+    font-weight: initial;
+    color: black!important;
+}

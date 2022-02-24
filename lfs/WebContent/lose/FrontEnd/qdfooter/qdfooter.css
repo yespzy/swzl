@@ -1,0 +1,23 @@
+.qdfooter{
+    width: 100%;
+    float: right;
+    height: 10rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    background: url("../index/b.png") repeat;
+}
+
+.qdfooter .row{
+    margin: 0;
+    height: 100%;
+}
+
+.qdfooter .row .qdfooter_content span{
+    font-style: inherit;
+    font-size: 2rem;
+    font-family: 楷体;
+    color: #1c1c1c;
+    font-weight: initial;
+    margin: auto auto;
+}
+

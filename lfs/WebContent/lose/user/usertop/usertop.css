@@ -1,0 +1,49 @@
+.admintop .row{
+    height: auto;
+    margin: 0;
+    background: url("admintop_bg.png") ;
+}
+
+.admintop .row table{
+    width: 100%;
+}
+
+.admintop .row table tr td{
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.admintop .row table h1{
+    display: inline-block;
+    margin-left: 3rem;
+    font-family: 宋体;
+    font-size: 2vw;
+    color: #03A8F6;
+}
+
+
+.admintop .row table h2{
+    display: inline-block;
+    margin-left: 3rem;
+    font-family: 宋体;
+    font-size: 2vw;
+    color: #FFFFFF;
+}
+
+.admintop .admintoptitle{
+    display: inline-block;
+    float: right;
+    margin-left: 6rem;
+}
+
+.admintop .backindex,.admintop .outsystem{
+    display: inline-block;
+    font-family: 楷体;
+    text-align: center;
+    background: url("admintopbutton.jpg") no-repeat;
+}
+
+.admintop .admintopdate,.admintop .admintoprow{
+    margin-left: 2rem;
+    display: inline-block;
+}

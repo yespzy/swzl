@@ -1,0 +1,50 @@
+.myrecruitment{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.myrecruitment .row{
+    width: 100%;
+    height: 612px;
+    margin: 0;
+    padding-top: 2rem;
+    padding-left:2rem;
+}
+
+.myrecruitment .row p{
+    font-size:2rem;
+    font-family:宋体;
+    font-weight: initial;
+}
+
+.myrecruitment .row table{
+    width: 100%;
+}
+
+.myrecruitment .row table tr td{
+    display: inline-block;
+    border: 1px solid #CAF2FF;
+    float: left;
+    font-size: 2rem;
+    font-weight: initial;
+    font-family: 楷体;
+    height:5.5vh;
+}
+
+.myrecruitment .myrecruitment_content td{
+    font-size: 1.5rem!important;
+}
+
+.myrecruitment .row table tr td a:hover{
+    color: #cc3300;
+}
+
+.myrecruitment .myrecruitment_page p{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px!important;
+    line-height: 1.42857143;
+}
+
+.myrecruitment .myrecruitment_page a:hover{
+    color: #cc3300;
+}

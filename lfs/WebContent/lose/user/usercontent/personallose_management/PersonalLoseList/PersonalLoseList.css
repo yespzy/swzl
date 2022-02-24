@@ -1,0 +1,50 @@
+.personalloselist{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.personalloselist .row{
+    width: 100%;
+    height: 612px;
+    margin: 0;
+    padding-top: 2rem;
+    padding-left:2rem;
+}
+
+.personalloselist .row p{
+    font-size:2rem;
+    font-family:宋体;
+    font-weight: initial;
+}
+
+
+.personalloselist .row table{
+    width: 100%;
+}
+
+.personalloselist .row table tr td{
+    display: inline-block;
+    border: 1px solid #CAF2FF;
+    float: left;
+    font-size: 2rem;
+    font-weight: initial;
+    font-family: 楷体;
+}
+
+.personalloselist .row table tr td a:hover{
+    color: #cc3300;
+}
+
+.personalloselist .personalloselist_content td{
+    font-size: 1.5rem!important;
+}
+
+.personalloselist .personalloselist_page p{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px!important;
+    line-height: 1.42857143;
+}
+
+.personalloselist .personalloselist_page a:hover{
+    color: #cc3300;
+}

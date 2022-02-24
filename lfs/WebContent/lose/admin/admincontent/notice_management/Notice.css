@@ -1,0 +1,44 @@
+.notice{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.notice .row{
+    margin:0;
+    width: 100%;
+    height: 612px;
+    padding-top:2rem;
+    padding-left:2rem;
+}
+
+.notice .row table{
+    width: 100%;
+}
+
+.notice .row table tr td{
+    display: inline-block;
+    float: left;
+    font-size: 2rem;
+    font-family: 楷体;
+    border: 1px solid #CAF2FF;
+    height:25vh;
+    padding-top:1rem;
+}
+
+.notice .notice_title{
+    height: 17.5vh;
+    padding-top: 8vh!important;
+}
+
+.notice .notice_button td{
+    border: none!important;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.notice .notice_button td input{
+    display: inline-block;
+    width: 15vw;
+    border-radius: 19px;
+    margin-left: 3rem;
+}

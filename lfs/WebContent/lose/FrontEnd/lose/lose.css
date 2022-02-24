@@ -1,0 +1,93 @@
+.lose,.losedetail{
+    width: 67.5vw;
+    float: right;
+    height: 50.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #EDD2C6;
+}
+
+.lose .row,.losedetail .row{
+    margin: 0;
+    height: 100%;
+}
+
+.lose table,.losedetail table{
+    width: 100%;
+}
+
+.lose .lose_title,.losedetail .losedetail_title{
+    font-size: 1vw;
+    font-family: "楷体";
+    font-weight: bold;
+    font-style: normal;
+    color: #1c1c1c;
+}
+
+.lose .lose_content tr{
+    color: black;
+    font-size: 1.3vw
+}
+
+
+.lose .lose_content a{
+    color: black;
+    font-size: 1.3vw
+}
+
+.lose .lose_content a:hover{
+    color: #cc3300;
+    text-decoration: underline;
+}
+
+.lose .lose_page{
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    font-style: initial;
+    font-weight: normal;
+    font-family: 幼圆;
+    color: black;
+}
+
+.lose .lose_page a{
+    color: black;
+}
+
+.lose .lose_page a:hover{
+    color: #cc3300;
+}
+
+.lose .lose_page span{
+    color: #ff190b;
+}
+
+.losedetail .losedetail_content table tr{
+    display: block;
+    margin-top: 1rem;
+    font-family: 宋体;
+    font-size: 2rem;
+    border-bottom: #FFFFFF 1px dashed;
+}
+
+.losedetail .losedetail_content td{
+    display: inline-block;
+}
+
+.losedetail .row table input{
+    float: right;
+    font-size: 1.5rem;
+    font-family: 楷体;
+    height: 3rem;
+    width: 7rem;
+    color: black;
+}
+
+.losedetail .losedetail_content .losedetail_content_title{
+    text-align: center;
+}
+
+
+.losedetail .losedetail_content .losedetail_content_detail{
+    width: auto;
+    height: auto;
+}

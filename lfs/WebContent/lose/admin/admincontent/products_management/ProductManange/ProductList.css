@@ -1,0 +1,50 @@
+.productlist{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.productlist .row{
+    width: 100%;
+    margin: 0;
+    height: 612px;
+    padding-top: 2rem;
+    padding-left:2rem;
+}
+
+.productlist .row table{
+    width: 100%;
+}
+
+.productlist p{
+    font-family: 宋体;
+    font-size: 2rem;
+}
+
+.productlist .row table tr td{
+    display: inline-block;
+    height: 5vh;
+    border: 1px solid #CAF2FF;
+    float: left;
+    font-size: 2rem;
+    font-weight: initial;
+    font-family: 楷体;
+}
+
+.productlist .productlist_content td{
+    padding-top: 0.5rem;
+    font-size: 1.4rem!important;
+}
+
+.productlist .productlist_content td a:hover{
+  color: #cc3300;
+}
+
+.productlist .productlist_page p{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px!important;
+    line-height: 1.42857143;
+}
+
+.productlist .productlist_page a:hover{
+    color: #cc3300;
+}

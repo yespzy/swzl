@@ -1,0 +1,73 @@
+.index{
+    width: 67.5vw;
+    float: right;
+    margin: 1rem 0 0;
+}
+
+.index .newest{
+    height: 305px;
+    padding: 1rem;
+    background-color: #EDD2C6;
+}
+
+.index .row{
+    margin: 0;
+}
+
+.index .row table{
+    width: 100%;
+}
+
+
+.newest_lose .newest_lose_title,.newest_claim .newest_claim_title{
+    font-size: 1.5rem;
+    font-family: "楷体";
+    font-weight: bold;
+    font-style: normal;
+    color: #1c1c1c;
+}
+
+.newest .newest_lose_content,.newest_claim .newest_claim_content{
+    height: 40vh;
+    font-style: normal;
+    font-size: 1vw;
+    font-weight: initial;
+    font-family: 幼圆;
+    color: black;
+
+}
+
+
+.newest .newest_lose_content a{
+    color: #bd4c01;
+    font-size: 1vw
+}
+
+.newest .newest_lose_content a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.newest_claim .newest_claim_content a{
+    display: inline-block;
+    text-align: center;
+    color: #bd4c01;
+    font-size: 1.5rem;
+    font-family: 幼圆;
+    font-style: normal;
+    font-weight: bold;
+    position: relative;
+    left: 10vw;
+    top: 10vh;
+    margin-right: 2rem;
+}
+
+.newest_claim .newest_claim_content a:hover{
+  color: black;
+}
+
+.newest_claim .newest_claim_content img{
+    width: 10vw;
+    height: 10vw;
+}
+

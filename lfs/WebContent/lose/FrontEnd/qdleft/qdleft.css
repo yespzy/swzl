@@ -1,0 +1,112 @@
+.qdleft .row{
+    margin: 1rem 1rem 0 0;
+}
+
+.qdleft_one{
+    width: 20rem;
+    background-color: #EDD2C6;
+    padding: 5px;
+}
+
+.qdleft_one table{
+    width: 100%;
+}
+
+.qdleft_one .qdleft_title {
+    text-align: center;
+    background-color:  bisque;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: "楷体"
+}
+
+.qdleft_one .qdleft_content{
+    display: block;
+    background-color: beige;
+    height: 20rem;
+}
+
+.qdleft_content marquee{
+    height: 100%;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: normal;
+    font-family: "楷体";
+}
+
+.qdleft_content table{
+    width: 100%;
+}
+
+.qdleft_one .qdleft_content table tr td label{
+    display: inline-block;
+    margin: 3rem 0 0 1rem;
+    font-size: 1vw;
+    font-weight: initial;
+    font-family: "楷体";
+}
+
+.qdleft_one .qdleft_content  input{
+    width: 65%;
+    border-radius: 8px;
+    font-size: 1vw;
+    font-weight: initial;
+    font-family: "楷体";
+    border: #EDD2C6 1px solid;
+}
+
+@media all and (max-width: 840px) {
+    .qdleft_one .qdleft_content  input{
+        width: 100%;
+    }
+    .qdleft_one .qdleft_content table tr td label{
+        margin:1rem 0 0;
+    }
+}
+
+.qdleft_one .qdleft_content .button{
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.qdleft_one .qdleft_content .button input{
+    font-size: 1vw;
+    font-weight: initial;
+    font-family: "楷体";
+    width:6vw!important;
+    height: 100%;
+    background-color: #cc3300;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+}
+
+@media all and  (max-width: 319px){
+    .qdleft_one .qdleft_content .button input{
+        width:35%!important;
+    }
+}
+
+@media all and (min-width: 320px){
+    .qdleft_one .qdleft_content .button input{
+        width:40%!important;
+    }
+}
+
+.qdleft .qdleft_else td table td{
+    font-size: 16px;
+    font-family: ����;
+    margin-top: 3rem;
+}
+
+.qdleft .qdleft_else td table input{
+    width: 6vw;
+    height: 3vh;
+    border:solid 1px #000000;
+    color:#666666
+}
+
+
+
